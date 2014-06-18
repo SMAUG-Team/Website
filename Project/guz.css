@@ -1,0 +1,49 @@
+.eye {
+    display: inline;
+    background-color: white;
+    border: 1px solid #000000;
+    width: 30px;
+    height: 30px;
+     margin-right: 205px;
+margin-top: 340px;
+    border-radius: 30px;
+    float:right;
+
+}
+
+.eye span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 20px;
+    background: #000;
+
+}
+
+.eye2 {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #000000;
+    width: 30px;
+    height: 30px;
+    margin-right: 27px;
+    margin-top: 327px;
+    border-radius: 30px;
+    float:right;
+
+}
+
+.eye2 span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 20px;
+    background: #000;
+
+}
