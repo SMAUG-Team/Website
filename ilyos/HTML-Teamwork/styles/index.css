@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Ringbearer;
+    src: url('../font/RINGM___.TTF');
+}
+@font-face{
+    font-family: Aniron;
+    src: url('../font/anicm___.ttf');
+}
+body{
+    font-family: Aniron;
+    margin:0;
+    padding: 0;
+}
+html{
+    cursor: url('../images/cursor.png'), auto;
+}
+header{
+    margin-top:0;
+    height: 200px;
+    background-color: rgb(75,104,136);
+}
+h1{
+    margin:0;
+    width: 550px;
+    height: 50px;
+    display: inline;
+    color: rgb(180,200,215);
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    float:right;
+}
+ul{
+    margin-top:0;
+}
+li{
+    margin-top:80px;
+    margin-right:25px;
+    display: inline-block;
+    padding: 0;
+}
+li:first-child{
+    margin-left: 500px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin-top:0;
+}
+a:hover{
+    cursor: url('../images/cursor.png'), pointer;
+}
+.nav-buttons {
+    display: inline-block;
+    margin: 1em 0 0 0;
+    padding: 0.4em 1em;
+    font-size: 0.7em;
+    background: rgb(75,104,136);
+    color: rgba(211,211,255,0.7);
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.2);
+    text-decoration: none;
+    border: solid 1px rgba(220,220,220,0.3);
+    border-radius: 10px;
+}
+
+.nav-buttons:hover {
+    color:#fff;
+    border: 1px solid rgba(222,222,222,1);
+    cursor: url('../images/cursor.png'), pointer;
+}
+
+.nav-buttons:active {
+    position: relative;
+    top: 3px;
+}
+
