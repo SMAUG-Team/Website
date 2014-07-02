@@ -581,6 +581,68 @@ header{
     height: 330px;
 }
 }
+label{
+    color: white;
+}
+.apply-holder{
+    width:400px;
+    margin-bottom:20px;
+    margin-top:25px;
+    margin-left:120px;
+}
+input[type="text"]{
+    width:55%;
+    float:right;
+    cursor: url('images/cursor.png'), pointer;
+    height:20px;
+    background-color: rgba(150,150,150,0.8);
+    border: solid 1px rgb(255,155,0);
+    border-radius:5px;
+}
+input[type="password"]{
+    width:55%;
+    float:right;
+    cursor: url('images/cursor.png'), pointer;
+    height:20px;
+    background-color: rgba(150,150,150,0.8);
+    border: solid 1px rgb(255,155,0);
+    border-radius:5px;
+}
+input[type="email"]{
+    width:55%;
+    float:right;
+    cursor: url('images/cursor.png'), pointer;
+    height:20px;
+    background-color: rgba(150,150,150,0.8);
+    border: solid 1px rgb(255,155,0);
+    border-radius:5px;
+}
+input[type="submit"]{
+    width:200px;
+    height:45px;
+    font-family: Ringbearer, sans-serif;
+    background: rgb(75,104,136);
+    color: rgba(211,211,255,0.7);
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.1);
+    text-decoration: none;
+    border: solid 1px rgba(20,20,20,1);
+    line-height:45px;
+    text-align: center;
+    outline:none;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 1px rgba(255,255,255,0.05), inset 0 0 35px rgba(0,0,0,1), 0 5px 5px -4px rgba(0,0,0,0.8);
+    margin-left:310px;
+}
+input[type="submit"]:hover{
+    border:1px solid rgb(255,155,0);
+    border-radius:10px;
+    cursor: url('images/cursor.png'),pointer;
+}
+input[type="submit"]:active{
+    border:1px solid rgb(255,155,0);
+    border-radius:10px;
+    background: rgba(255,155,0,0.4);
+}
 @media screen and (max-width: 402px) {
     .nav-buttons,.notanav{
         width: 225px;
